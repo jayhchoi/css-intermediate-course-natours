@@ -1,47 +1,79 @@
 .u-text- {
-  &center {
-    text-align: center !important;
-  }
-  &left {
-    text-align: left !important;
-  }
-  &right {
-    text-align: right !important;
-  }
+    &center {
+        text-align: center !important;
+    }
+    &left {
+        text-align: left !important;
+    }
+    &right {
+        text-align: right !important;
+    }
 }
 
 .u-margin-bottom- {
-  &huge {
-    margin-bottom: 10rem !important;
-  }
+    &huge {
+        margin-bottom: 10rem !important;
 
-  &big {
-    margin-bottom: 8rem !important;
-  }
+        @include respond(tab-port) {
+            margin-bottom: 7rem !important;
+        }
+    }
 
-  &medium {
-    margin-bottom: 4rem !important;
-  }
+    &big {
+        margin-bottom: 8rem !important;
 
-  &small {
-    margin-bottom: 1.5rem !important;
-  }
+        @include respond(tab-port) {
+            margin-bottom: 5rem !important;
+        }
+    }
+
+    &medium {
+        margin-bottom: 4rem !important;
+
+        @include respond(tab-port) {
+            margin-bottom: 2rem !important;
+        }
+    }
+
+    &small {
+        margin-bottom: 1.5rem !important;
+
+        @include respond(tab-port) {
+            margin-bottom: 1rem !important;
+        }
+    }
 }
 
 .u-margin-top- {
-  &huge {
-    margin-top: 10rem !important;
-  }
+    &huge {
+        margin-top: 10rem !important;
 
-  &big {
-    margin-top: 8rem !important;
-  }
+        @include respond(tab-port) {
+            margin-top: 7rem !important;
+        }
+    }
 
-  &medium {
-    margin-top: 4rem !important;
-  }
+    &big {
+        margin-top: 8rem !important;
 
-  &small {
-    margin-top: 1.5rem !important;
-  }
+        @include respond(tab-port) {
+            margin-top: 5rem !important;
+        }
+    }
+
+    &medium {
+        margin-top: 4rem !important;
+
+        @include respond(tab-port) {
+            margin-top: 2rem !important;
+        }
+    }
+
+    &small {
+        margin-top: 1.5rem !important;
+
+        @include respond(tab-port) {
+            margin-top: 1rem !important;
+        }
+    }
 }
